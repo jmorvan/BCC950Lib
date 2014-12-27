@@ -1,0 +1,14 @@
+﻿<Window x:Class="BCC950Demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btn_up" Content="UP" HorizontalAlignment="Left" Margin="228,64,0,0" VerticalAlignment="Top" Width="56" Height="54" PreviewMouseDown="btn_up_MouseDown" PreviewMouseUp="btn_up_MouseUp"/>
+        <Button x:Name="btn_right" Content="RIGHT" HorizontalAlignment="Left" Margin="284,118,0,0" VerticalAlignment="Top" Width="56" Height="54" PreviewMouseDown="btn_right_MouseDown" PreviewMouseUp="btn_right_MouseUp"/>
+        <Button x:Name="btn_left" Content="LEFT" HorizontalAlignment="Left" Margin="172,118,0,0" VerticalAlignment="Top" Width="56" Height="54" PreviewMouseDown="btn_left_MouseDown" PreviewMouseUp="btn_left_MouseUp"/>
+        <Button x:Name="btn_down" Content="DOWN" HorizontalAlignment="Left" Margin="228,172,0,0" VerticalAlignment="Top" Width="56" Height="54" PreviewMouseDown="btn_down_MouseDown" PreviewMouseUp="btn_down_MouseUp"/>
+        <Button x:Name="btn_zoom_in" Content="+" HorizontalAlignment="Left" Margin="28,64,0,0" VerticalAlignment="Top" Width="56" Height="54" PreviewMouseDown="btn_zoom_in_MouseDown" PreviewMouseUp="btn_zoom_in_MouseUp"/>
+        <Button x:Name="btn_zoom_out" Content="-" HorizontalAlignment="Left" Margin="28,172,0,0" VerticalAlignment="Top" Width="56" Height="54" PreviewMouseDown="btn_zoom_out_MouseDown" PreviewMouseUp="btn_zoom_out_MouseUp"/>
+
+    </Grid>
+</Window>

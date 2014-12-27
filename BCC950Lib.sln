@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCC950Demo", "BCC950Demo\BCC950Demo.csproj", "{688F9403-686E-43A9-962F-BD427DF7CDFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTZDevice", "Logitech-BCC950-PTZ-Lib-master\PTZDevice.csproj", "{7345DC27-7F35-43AD-86B4-6826FC1475BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{688F9403-686E-43A9-962F-BD427DF7CDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688F9403-686E-43A9-962F-BD427DF7CDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688F9403-686E-43A9-962F-BD427DF7CDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688F9403-686E-43A9-962F-BD427DF7CDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7345DC27-7F35-43AD-86B4-6826FC1475BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7345DC27-7F35-43AD-86B4-6826FC1475BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7345DC27-7F35-43AD-86B4-6826FC1475BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7345DC27-7F35-43AD-86B4-6826FC1475BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
